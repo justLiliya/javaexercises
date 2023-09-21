@@ -1,5 +1,17 @@
 public class StringConverse {
 
+    /**Создайте метод, который преобразует словосочетания, разделенные нижним
+    подчеркиванием или дефисом в camelCase. Первое слово в получившемся сочетании
+    должно начинать с большой буквы, только если первое слово в оригинальной фразе
+    было с большой буквы, во всех остальных случаях следуем правилам camelCase -
+    первое слово маленькой буквы.
+    Примеры:
+            “a-beautiful-rose” дожно стать “aBeautifulRose”
+            “A-beautiful-rose” должно стать “ABeautifulRose”
+            “a_beautiful_rose” должно стать “aBeautifulRose”
+            “a_beautiful-rose” должно стать “aBeautifulRose”
+            “A_Beautiful-rose” должно стать “ABeautifulRose”**/
+
     public static String toCamelCase(String s) {
         String newString = "";
         char [] mychar = s.toCharArray();
