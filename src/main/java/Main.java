@@ -12,6 +12,7 @@ public class Main {
         System.out.println(StringReverse.reverseWord(word));
         System.out.println(Factorial.getFactorial(5));
         System.out.println(Factorial.getFactorialfromCycle(5));
+        RandomNums.universalValues(RandomNums.getArray());
     }
 
 }
